@@ -22,7 +22,7 @@ function getWeatherData(city) {
         let content = "";
         for (const [key, value] of Object.entries(data.location)) {
           content += `
-                < tr >
+            < tr >
                 <td class="px-6 py-4">${key}</td>
               <td class="px-6 py-4">${value}</td>
             </tr >
